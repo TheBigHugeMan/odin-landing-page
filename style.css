@@ -1,5 +1,9 @@
 body {
     font-family: "Roboto", 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0;
+    margin: 0;
 }
 
 .logo {
@@ -18,7 +22,6 @@ ul {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #1f2937;
 }
 
 .links {
@@ -26,12 +29,57 @@ ul {
     gap: 8px;    
 }
 
-.footer {
-    border: 2px solid black;
+.footer, .nav-bar, .hero {
     background-color: #1f2937;
+    color: white;
 }
 
 .footer-text {
     text-align: center;
     color: white;
 }
+
+.hero-img {
+    width: 400px;
+}
+.hero {
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+}
+
+.main-txt {
+    font-weight: 900;
+    font-size: 48px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.secondary-txt {
+    font-size: 18px;
+    color: #E5E7EB;
+    padding: 0;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.button {
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 5px 10px;
+    color: white;
+}
+
+#hero-button {
+    border-color: #3882F6;
+    font-weight: bold;
+}
+
+.hero-content {
+    width: 500px;
+}
+
+
+
+
+
