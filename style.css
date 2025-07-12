@@ -67,7 +67,7 @@ ul {
 .button {
     background-color: #3882F6;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 6px 16px;
     color: white;
 }
 
@@ -83,6 +83,7 @@ ul {
 .card-img {
     width: 300px;
     height: 200px;
+    border-radius: 10px;
 }
 
 .info-head {
@@ -119,4 +120,35 @@ ul {
 #attribution {
     text-align: end;
     font-weight: bold;
+}
+
+.section {
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+    color: #F9FAF8;
+}
+
+.cta {
+    background-color: #3882F6;
+    display: flex;
+    padding: 16px 90px;
+    gap: 52px;
+    border-radius: 10px;
+}
+
+#cta-head {
+    font-weight: bold;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+.body-txt {
+    margin-top: 0;
+}
+
+.cta-button{
+    align-self: center;
+    color: #F9FAF8;
+    border-color: #F9FAF8;
 }
